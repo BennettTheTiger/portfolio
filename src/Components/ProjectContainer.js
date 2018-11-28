@@ -32,7 +32,7 @@ class ProjectContainer extends React.Component{
             subtitle="Videography & Motion Graphics" 
             bgURL="/assets/adaptechMotion/thumb.png"
             youtube="https://www.youtube.com/watch?v=8WgvdUYijBE"/>);
-        allProjects.push(<Project title="This Site!" subtitle="React App & Anime.js" bgURL="/assets/this/thumb.png"/>);
+        allProjects.push(<Project title="This Site!" subtitle="React App & Anime.js" bgURL="/assets/this/thumb.png" git="https://github.com/BennettTheTiger/portfolio"/>);
         //allProjects.push(<Project title="Audio Visualizer" subtitle="HTML5 Canvas & Javascript" bgURL="/assets/bgtest.jpg"/>);
         allProjects.push(<Project title="Monroe County Parks" subtitle="App Design & Motion Graphics" bgURL="/assets/monroeParks/thumb.jpeg" youtube="https://www.youtube.com/watch?v=sO3d3RkAqNk" link="https://invis.io/K3BQ0D3A8"/>);
         allProjects.push(<Project title="Food Finder" subtitle="A food locator app using the Google Places API" bgURL="/assets/foodfinder/thumb.png" git="https://github.com/BennettTheTiger/foodFinder" link="https://bennettthetiger.github.io/foodFinder/"/>);
