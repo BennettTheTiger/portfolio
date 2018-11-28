@@ -1,0 +1,11 @@
+.customButton{
+   border-style: solid;
+   width: auto;
+   max-width: 30vw;
+   text-align: center;
+   padding: 5px;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #252525;
+   border-radius: 10px;
+   
+}

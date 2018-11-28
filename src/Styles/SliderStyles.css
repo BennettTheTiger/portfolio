@@ -1,0 +1,88 @@
+.leftArrow{
+    position: absolute;
+    top:40%;
+    font-size: 2em;
+}
+
+.rightArrow{
+    position: absolute;
+    top:40%;
+    right: 0px;
+    font-size: 2em;
+}
+
+.contentFrame{
+    margin-top: 75px;
+    margin: 50px;
+    background-color: #252525;
+    height: 75vh;
+}
+
+.blackBack{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    top:-100px;
+    opacity: 0;
+}
+
+.text{
+    color:white;
+    opacity: 0;/* start at 0 and be animated in*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+.links{
+    text-align: center;
+}
+.links i{
+    position: relative;
+    color: #fff;
+}
+
+i:hover{
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: darkorange;    
+}
+
+#title{
+    position: relative;
+    top: -65px;
+    font-style: italic;
+ 
+}
+
+#titleTop{
+    position: absolute;
+    top: 100px;
+}
+
+#subTop{
+    position: absolute;
+    top:300px;
+    width: 100%;
+}
+
+#subTitle{
+    width: 300px;
+}
+
+.prjContainer{
+    position: inherit;
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(.8) grayscale(.7);
+}
+
+.iconContainer{
+    background-color: black;
+    height: 15px;
+    width: 200px;
+}

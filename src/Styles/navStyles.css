@@ -1,0 +1,23 @@
+.navContainer .navItem{
+font-family: 'Josefin Sans', sans-serif;
+padding: 10px;
+display: inline-block;
+padding-right: 20px;
+
+
+}
+
+.navItem a{
+  color: darkorange;
+}
+
+.navContainer{
+  background-color: #fff;
+  text-align: right;
+  position: fixed;
+  top:0px;
+  width: 100vw;
+  z-index: 1500;
+}
+
+

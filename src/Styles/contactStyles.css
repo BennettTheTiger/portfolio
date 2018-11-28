@@ -1,0 +1,39 @@
+.socialLinks{
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    font-size: 2em;
+    padding: 25px;
+    height:200px;
+    right:25px;
+    top:100px;
+}
+
+.helpContainer{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+
+#helpTxt{
+    letter-spacing: 0em;
+}
+
+h2{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+#download{
+    color: darkorange;
+}
+
+#line{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}

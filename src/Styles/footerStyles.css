@@ -1,0 +1,39 @@
+.footer{
+    background-color: #202020;
+    color: #909090;
+    
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr{
+    width: 200px;
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+
+i{
+    font-size: 1em;
+    color: #909090;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: .5em;
+    letter-spacing: .25em;
+}
+
+i:hover{
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: darkorange;    
+}

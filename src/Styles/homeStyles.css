@@ -1,0 +1,40 @@
+.dynamicBox{
+    position: relative;
+    padding-top: 50px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section{
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#about{
+    background-color: lightgrey;
+    padding-top: 85px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+#about a {
+    color: darkorange;
+}
+
+.centerTitle{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about p {
+    font-size: 1em;
+    padding: 15px;
+
+    letter-spacing: 0em;
+    line-height: 1.5em
+}
+
+#about hr {
+    width: 75%;
+}

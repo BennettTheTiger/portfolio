@@ -1,0 +1,59 @@
+.coverImg{
+    height: 100vh;
+    padding-top:20px;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    background-size:cover;
+    background-position: center;
+    /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(1) brightness(.5);
+    color: #fff;
+      
+}
+
+.titleText{
+    color:blue;
+    text-align: center;
+    position: static;
+    top:20px;
+
+}
+.aboutPrj{
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.closeButton{
+    position: absolute;
+    right:20px;
+    top:0px;
+    font-size: 1.5em;
+}
+
+.showButton{
+    height: 50px;
+    width: 200px;
+    background-color: #fff;
+    color:black;
+}
+/*
+.coverImg:hover{
+    animation: blur 3s ease-in-out forwards;
+   
+}
+
+@keyframes blur{
+    from {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 
+        filter: grayscale(100%);
+      }
+    
+      to {
+        -webkit-filter: blur(3px) grayscale(100%); /* Safari 
+        filter: blur(3px) grayscale(100%);
+      }
+}
+*/
